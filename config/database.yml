@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: out_of_bounds_production
-  username: out_of_bounds
-  password: <%= ENV['OUT_OF_BOUNDS_DATABASE_PASSWORD'] %>
+  # username: out_of_bounds
+  # password: <%= ENV['OUT_OF_BOUNDS_DATABASE_PASSWORD'] %>
