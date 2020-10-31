@@ -15,3 +15,22 @@
  */
 
 @import 'bulma';
+
+body{
+  background-color: whitesmoke;
+}
+
+.banner{
+  height: 40vh;
+  width: 100%;
+  background: url('boundary_sign_cropped.jpg');
+  background-position: center;
+  background-size: 100% 40vh;
+  background-color: black;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.right{
+  text-align: right;
+}

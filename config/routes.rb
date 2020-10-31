@@ -5,6 +5,8 @@ Rails.application.routes.draw do
     resources :comments
   end
 
+  get "/about" => "about#show"
+
   # set root url
   root "posts#index"
 
